@@ -1,0 +1,279 @@
+/**
+ *
+ * Project Name: Leaven;
+ * Author: Abdulaha Islam;
+ * Version: 1.0.1;
+ * Company: Abnipes Network;
+ * Descriptions: Leaven is an html5 responsive e-commerce template;
+ *
+ *
+ *
+ **************
+ * RESPONSIVE CSS TABLE OF CONTENTS
+ **************
+ *
+ * 01. X-Large devices
+ * 02. Large devices
+ * 03. Medium devices
+ * 04. Small devices
+ * 05. X-Small devices
+ * 
+ */
+
+/* 01. X-Large devices (large desktops, less than 1400px) */
+@media screen and (max-width: 1399.98px) {
+    ul.dropdown-menu.show {
+        position: absolute;
+        left: unset;
+        right: 0;
+    }
+
+    section.video-area .content {
+        padding: 0 100px;
+    }
+
+    section.prints-area .section-title.page-text-heading {
+        padding: 0 150px;
+    }
+
+    .container-wrap {
+        max-width: 1200px;
+    }
+
+    .accordion {
+        max-width: 980px;
+    }
+
+    section.why-us-area .content {
+        max-width: 990px;
+    }
+
+    .contact-content {
+        max-width: 980px;
+    }
+
+    section.why-us-area .content {
+        max-width: 990px;
+    }
+}
+
+/* 02. Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 1199.98px) {
+    .iframe-wrapper {
+        padding-top: 36%;
+    }
+
+    ul.navbar-nav {
+        padding: 0 20px;
+    }
+    .flex-xl-row {
+        flex-direction: row!important;
+    }
+}
+
+/* 03. Medium devices (tablets, less than 992px) */
+@media screen and (max-width: 991.98px) {
+    .iframe-wrapper {
+        padding-top: 52%;
+    }
+    section.why-us-area .content {
+        max-width: 880px;
+    }
+
+    .container-wrap {
+        max-width: 880px;
+    }
+
+    .ba-element img {
+        width: 320px;
+    }
+
+    .vertical-separator {
+        height: 350px;
+    }
+
+    .answer {
+        padding-left: 80px;
+    }
+
+    .instructions-list-container {
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+    .container-wrap {
+        padding: 0 40px;
+    }
+}
+
+/* 04. Small devices (landscape phones, less than 768px)  */
+@media screen and (max-width: 767.98px) {
+    .c-content-box h3 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .container-wrap {
+        padding: 0;
+    }
+    .image-set h5 {
+        padding: 0 30px;
+    }
+
+    .section-title.page-text-heading {
+        margin-bottom: 2rem !important;
+        padding: 0 32px !important;
+    }
+
+    section.hero-area h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    section.hero-area img {
+        max-width: 280px;
+    }
+
+    .section-title.page-text-heading h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .ba-element img {
+        width: 250px;
+        min-width: unset;
+    }
+    .vertical-separator {
+        height: 200px;
+    }
+
+    section.video-area .content {
+        padding: 0;
+    }
+
+    section.prints-area .section-title.page-text-heading {
+        padding: 0px;
+    }
+
+    ul#lightGallery {
+        flex-wrap: wrap;
+    }
+
+    .answer {
+        padding-left: 0;
+    }
+    .c-content-box {
+        padding: 10px 20px 10px 45px;
+    }
+
+    .why-us-content .col {
+        width: 100% !important;
+        flex: unset;
+    }
+
+    .why-us-content .row {
+        flex-direction: column-reverse;
+    }
+
+    section.why-us-area {
+        padding: 0 20px;
+    }
+
+    footer .px-5 {
+        padding: 0 !important;
+    }
+
+    .page-text-heading {
+        gap: 1rem;
+    }
+
+    section.why-us-area .page-text-heading,
+    section.contact .page-text-heading {
+        gap: 4rem;
+    }
+
+    section.faq-area {
+        padding: 0 20px;
+    }
+
+    .details-container {
+        display: block;
+    }
+
+    #lightGallery-slider .info .desc {
+        left: 0;
+    }
+    .why-us-content img {
+        display: none;
+    }
+    footer .page-text-heading {
+        font-size: 32px;
+        gap: 4rem;
+        line-height: 2rem;
+        padding: 0 32px;
+    }
+    img.trademark-img {
+        width: 350px;
+    }
+
+    a#navbarDropdownMenuLink {
+        background: transparent;
+    }
+
+    .dropdown-toggle::after {
+        content: none;
+    }
+
+    a#navbarDropdownMenuLink button {
+        background: transparent;
+        border: none;
+        font-size: 35px;
+        margin: 0;
+        padding: 0;
+    }
+
+    a#navbarDropdownMenuLink button svg {
+        fill: rgba(33,37,41,.75);
+        margin-top: -10px;
+    }
+    ul.navbar-nav.mobile {
+        display: flex;
+    }
+
+    ul.navbar-nav.large {
+        display: none;
+    }
+    p.about-us-text {
+        padding-left: 0;
+    }
+    .why-us-content {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .content-area.horizontal-line .c-content-box:nth-child(2) {
+        display: none;
+    }
+}
+
+/* 05. X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575px) {
+    .flex-sm-column {
+        flex-direction: column!important;
+    }
+    .content-area.horizontal-line {
+        display: block;
+    }
+
+    .ba-element img {
+        width: 150px;
+        min-width: unset;
+    }
+    .vertical-separator {
+        height: 200px;
+    }
+    .c-content-box {
+        padding: 10px 50px;
+        text-align: center;
+    }
+    p.about-us-text {
+        text-align: center;
+    }
+}

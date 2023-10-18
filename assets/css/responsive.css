@@ -255,6 +255,10 @@
 
 /* 05. X-Small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575px) {
+    .iframe-wrapper {
+        padding-top: 75%;
+        margin-top: -10%;
+    }
     .flex-sm-column {
         flex-direction: column!important;
     }
